@@ -1,1 +1,58 @@
+/* app style */
 
+header  {
+  height: 100px;
+  font-size: 60px;
+  text-align: center;
+  outline: dotted orange;
+  padding-top: 54px;
+  background: tan;
+  color: black;
+}
+
+nav {
+  font-size: 40px;
+  padding: 70px;
+  margin-bottom: 60px;
+}
+
+header img {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 100px;
+}
+
+button {
+  font-size: 40px;
+  padding: 10px 20px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 38px;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+}
+
+footer {
+  height: 50px;
+}
+
+p {
+  padding-top: 20px;
+  font-size: 16px;
+}
+section {
+  margin: 30px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+li {
+  text-transform: capitalize;
+}
