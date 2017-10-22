@@ -1,6 +1,6 @@
 'use strict';
 // construct a function to ask all of the questions//
-var user = prompt('what is your name');
+var user = prompt('What is your name');
 var firstQuestions = ['Was Roger born in America?','Is Roger married?','Does Roger have  more than one child?','Is Roger making a major life change?','Does Roger Like coding?'];
 console.log(user);
 var correctAnswers = ['n','y','n','y','y'];
@@ -26,14 +26,14 @@ function compareAnswers(answerArray,correctAnswers) {
     //console.log(answerArray[j]);
     //console.log(correctAnswers[j]);
     if (answerArray[j] === correctAnswers[j]) {
-      console.log('correct');
+      console.log('Correct');
       numCorrect = numCorrect + 1;
     }
   }
   return numCorrect;
 }
 var firstAnswers = askquestions(firstQuestions);
-alert(firstAnswers);
+//alert(firstAnswers);
 // compares the user answers with correct answers
 var userCorrect = compareAnswers(firstAnswers,correctAnswers);
 alert('Hey ' + user + ' you got ' + userCorrect + ' answers correct.');
@@ -52,7 +52,7 @@ while (userguess !== 7 && guesscounter < maxguesses) {
     alert('Naw too high');
     guesscounter++;
   } else if (isNaN(userguess) || userguess === null) {
-    alert('please enter a number');
+    alert('Please enter a number');
     guesscounter++;
   }
 }
