@@ -1,6 +1,6 @@
 'use strict';
 // construct a function to ask all of the questions//
-
+var user =prompt('what is your name');
 var firstQuestions = ['Was Roger born in America?','Is Roger married?','Does Roger have  more than one child?','Is Roger making a major life change?','Does Roger Like coding?'];
 
 
@@ -13,4 +13,5 @@ function askquestions(questionArray) {
   return answerArray;
 }
 
-askquestions(firstQuestions);
+var firstAnswers = askquestions(firstQuestions);
+alert(firstAnswers);
