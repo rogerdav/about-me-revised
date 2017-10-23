@@ -71,11 +71,11 @@ function checkArray(answer, arrayName) {
   }
 }
 while (!flag1 && guessnum < 6) {
-  uguesscity = prompt('Guess a city i have lived, you have ' + (maxcityguess - guessnum) + ' Turns left');
+  uguesscity = prompt('Guess a city I have lived, you have ' + (maxcityguess - guessnum) + ' Turns left');
   guessnum++;
   checkArray(uguesscity, citieslived);
   if (!flag1) {
-    alert('sorry');
+    alert('Sorry');
   }else{
     alert('Correct');
   }
